@@ -1,0 +1,1 @@
+<li><a href="[item_url]">[item_photo]<br />[item_name] ([item_quantity])</a></li>

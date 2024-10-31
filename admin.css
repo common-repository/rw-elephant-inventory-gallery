@@ -1,0 +1,33 @@
+.rwe-logo {
+	margin-right: 15px;
+	vertical-align: middle;
+}
+.rwe-admin-head {
+	margin-right: 15px;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #555;
+}
+.rwe-settings {
+	padding: 10px 20px;
+}
+label {
+	display:inline-block;
+	width: 200px;
+	margin: 5px 10px;
+}
+label.social-checkbox {
+	width: auto;
+	padding: 5px 10px;
+	margin: 0 20px 0 0;
+}
+input.rwe-submit {
+	display: block;
+	clear: both;
+	margin: 20px 0 0;
+}
+input#api_key, input#title_format, input#wishlist_message {
+	width: 300px;
+}
+small.rwe-note {
+	margin-left: 5px;
+}

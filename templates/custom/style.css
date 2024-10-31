@@ -1,0 +1,231 @@
+#rwe-gallery img {
+	box-shadow: none;
+}
+#rwe-gallery li:before {
+	display:none;
+}
+.rwe-size-100 li a {
+	width: 110px;
+}
+.rwe-size-100 li a img {
+	width: 100px;
+}
+.rwe-size-200 li a {
+	width: 210px;
+}
+.rwe-size-200 li a img {
+	width: 200px;
+}
+#rwe-gallery ul.rwe-breadcrumb {
+	float: left;
+}
+#rwe-gallery .rwe-breadcrumb li a {
+	background: #d8d8d8;
+	padding: 5px;
+	margin: 8px 0 8px 8px;
+}
+#rwe-gallery .rwe-breadcrumb li a:hover {
+	background: #fff;
+}
+#rwe-gallery .rwe-breadcrumb li:last-child {
+	margin: 13px 10px;
+}
+#rwe-gallery .rwe-top-box {
+	background: #ccc;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+#rwe-search-form {
+	float: right;
+	margin: 8px;
+}
+input#rwe-search {
+	padding-left: 10px;
+	margin: 2px 0;
+	width: 150px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+#rwe-search-submit {
+	display: none;
+}
+#rwe-gallery ul, #rwe-gallery li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-indent: 0;
+}
+#rwe-gallery li {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+}
+#rwe-gallery li img {
+	padding: 5px;
+	background: #fff;
+}
+#rwe-gallery li a {
+	display: block;
+	padding: 10px 10px 5px 10px;
+	margin: 5px;
+	background: #eee;
+	color: #555;
+	text-decoration: none;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+#rwe-gallery li a:hover {
+	background: #ccc;
+	color: #333;
+}
+
+#rwe-gallery .rwe-item-images {
+	width: 55%;
+	float: left;
+}
+#rwe-gallery .rwe-sidebox {
+	max-width: 40%;
+	float: right;
+}
+#rwe-gallery .rwe-description {
+	margin: 12px 0 5px;
+	padding: 1px;
+	background: #eee;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+#rwe-gallery .rwe-description p {
+	margin: 8px;
+	padding: 10px;
+	background: #fff;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+.rwe-share-box {
+	margin: 2px 0;
+	padding: 7px 3px 0;
+	background: #eee;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+.rwe-share {
+	padding-right: 6px;
+	float:left;
+	text-align: center;
+}
+.rwe-share iframe {
+	margin: 0;
+}
+#rwe-gallery .rwe-photo-container {
+	width: 100%;
+}
+#rwe-gallery .rwe-item-photo {
+	width: 100%;
+}
+#rwe-gallery ul.rwe-item-tags li {
+	text-align: left;
+	padding: 0;
+}
+#rwe-gallery ul.rwe-item-tags li a {
+	padding: 5px 10px;
+	margin: 5px 10px 5px 0;
+}
+#rwe-gallery ul.rwe-gallery-thumbnails li img {
+	width: 50px;
+	padding: 5px;
+}
+#rwe-gallery ul.rwe-gallery-thumbnails li a {
+	padding: 4px;
+	margin: 5px 9px 5px 0;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	line-height: 0;
+}
+#rwe-gallery ul.rwe-gallery-thumbnails li:last-child a {
+	margin-right: 0;
+}
+#view-wishlist {
+	position: relative;
+	float: right;
+	margin: 10px;
+}
+#wishlist {
+	position: absolute;
+	right: 0;
+	top: 45px;
+	width: 300px;
+	padding: 10px;
+	background-color: #eee;
+	border: 1px solid #ccc;
+	z-index: 1000;
+}
+#wishlist .item {
+	width: 50px;
+}
+#wishlist #update-wishlist {
+	margin: 10px 10px 10px 0;
+	float: left;
+}
+#wishlist .submit-wishlist {
+	margin: 10px 0 10px 10px;
+	float: right;
+}
+#wishlistsubmit label {
+	float: left;
+	width: 200px;
+	padding: 3px 10px;
+	margin: 3px;
+}
+#wishlistsubmit input#event_date {
+	width: 120px;
+}
+#wishlistsubmit p.error label {
+	background-color: #f77;
+}
+#wishlistsubmit p.error input {
+	background-color: #ff7;
+}
+.add-to-wishlist:disabled {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+.view-wishlist-page ul {
+	margin: 0;
+	padding: 0;
+}
+.view-wishlist-page li {
+	margin: 0 0 1em;
+	padding: 0;
+	list-style: none;
+}
+.view-wishlist-page span {
+	display: inline-block;
+	margin: 0 1em;
+}
+.view-wishlist-page .item-name {
+	width: 250px;
+}
+.view-wishlist-page .item-price {
+	width: 100px;
+} 
+.view-wishlist-page .item.qty {
+	width: 50px;
+}
+#update-view-wishlist, .continue-shopping, .submit-wishlist {
+	margin: 10px;
+}
+.remove-from-wishlist {
+	vertical-align: middle;
+}
+.x-from-wishlist {
+	float: right;
+}
+#rwe-gallery #wishlist-contents li {
+	display: block;
+	text-align: left;
+	clear: both;
+}
+#wishlist-contents span {
+	margin: 0 0.5em;
+	display: inline-block;
+}

@@ -1,0 +1,1 @@
+<li><a href="[category_url]">[category_thumbnail]<br />[category_name]</a></li>
